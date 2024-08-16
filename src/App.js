@@ -1,4 +1,3 @@
-
 import './App.css';
 import About from './Pages/About';
 import Homepage from './Pages/Homepage';
@@ -9,8 +8,8 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/' element={<Homepage/>}/>
-          <Route path='/about' element={<About/>}/>
+          <Route path='/' element={<Homepage />} />
+          <Route path='/about' element={<About />} />
         </Routes>
       </Router>
     </div>

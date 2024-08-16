@@ -1,14 +1,15 @@
 import React from "react";
-import Ex2Counter from "../Components/Ex2Counter";
-import Ex3TempControlApp from "../Components/Ex3TempControlApp";
-import Ex4SearchFilter from "../Components/Ex4SearchFilter";
-import Ex5RegForm from "../Components/EX5RegForm";
-import Ex6QuizApp from "../Components/Ex6QuizApp";
-import Ex7Navbar from "../Components/Ex7Navbar";
+import Ex9ToDoApp from "../Components/Ex9ToDoApp";
+// import Ex2Counter from "../Components/Ex2Counter";
+// import Ex3TempControlApp from "../Components/Ex3TempControlApp";
+// import Ex4SearchFilter from "../Components/Ex4SearchFilter";
+// import Ex5RegForm from "../Components/EX5RegForm";
+// import Ex6QuizApp from "../Components/Ex6QuizApp";
+// import Ex7Navbar from "../Components/Ex7Navbar";
 function Homepage() {
   return (
     <div>
-      <div className="e1">
+      {/* <div className="e1">
         <h1>1.Hello World</h1>
       </div>
       <hr />
@@ -44,10 +45,11 @@ function Homepage() {
       <hr />
       <div className="e8">
         <h1>8.OAuth0</h1>
-      </div>
-      <hr />
+      </div> 
+      <hr />*/}
       <div className="e9">
         <h1>9.To-Do App</h1>
+        <Ex9ToDoApp/>
       </div>
     </div>
   );

@@ -61,12 +61,12 @@ function Ex6QuizApp() {
   ];
   var [currentQue, setCurrentQue] = useState(0);
   var [showScore, setShowScore] = useState(false);
+  var [score, setScore] = useState(0);
   function showQue() {
     setShowScore(false);
     setCurrentQue(0);
     setScore(0);
   }
-  var [score, setScore] = useState(0);
   const handleClick = (index) => {
     const nextQue = currentQue + 1;
     if (nextQue < Questions.length) {
