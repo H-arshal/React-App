@@ -1,38 +1,289 @@
 .App {
   text-align: center;
+  color: #1ba098;
+}
+h1 {
+  color: #deb992;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.counter-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-box {
+  color: white;
+  display: flex;
+  font-size: 1.5rem;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  background-color: #1ba098;
+}
+.Ex2btn {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  margin: 0rem 1rem 0rem 1rem;
+}
+.ex3 .counter-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ex3 .sub-container {
+  padding: 2rem;
+  background-color: #1ba098;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.ex3 .tempData {
+  border: 2px solid white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: 900;
+  background-color: #70bf40;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.ex3 .counter-bars {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ex3 .Ex3btn {
+  color: white;
+  background-color: grey;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.ex4 .games {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  border-radius: 30px;
+  margin: 4px;
+}
+.ex4 .filter-bar {
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 0px 0px 20px 0px;
+}
+
+.ex5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.e5 {
+  background-image: url("./images/Space.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: max-content;
+}
+.ex5 .container {
+  padding: 30px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 1px solid white;
+  width: max-content;
+  backdrop-filter: blur(20px);
+}
+
+.ex5 .sub-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.ex5 h3 {
+  color: #deb992;
+}
+.ex5 input {
+  font-size: 18px;
+  background: none;
+  font-weight: bold;
+
+  border: none;
+  border-bottom: 1px solid white;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.ex5 input:focus {
+  outline: none;
+}
+.container .Ex5btn {
+  color: #fff;
+  /* text-align: end; */
+  width: max-content;
+  position: relative;
+  font-size: 1.2rem;
+  cursor: pointer;
+  left: 8rem;
+  padding: 10px;
+  border-radius: 40px;
+  border: 1px solid white;
+  background-color: #70bf40;
+  transition: 0.3s ease-in-out;
+}
+.container .Ex5btn:hover {
+  transform: scale(1.02);
+}
+
+.ex6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ex6 .main-container {
+  height: 13rem;
+  width: max-content;
+  box-shadow: 5px 5px 50px #000000;
+  border-radius: 20px;
+  display: flex;
+}
+.ex6 .que-container {
+  width: 50%;
+}
+.ex6 .opt-container {
+  text-align: left;
+  width: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ex6 .options {
+  padding-left: 20px;
+  width: 85%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 19px;
+  font-weight: 400;
+  border-radius: 10px;
+  color: white;
+  border: 0.5px solid #4195fc;
+  box-shadow: 0px 0px 4px #4195fc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.ex6 .options:hover {
+  transform: scale(1.02);
+}
+.ex6 .que-container {
+  margin-left: 10px;
+  text-align: left;
+}
+
+.ex6 .que-no span {
+  font-size: 26px;
+}
+.ex6 .Question {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+}
+.ex7 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* margin-bottom: 15rem; */
+}
+.ex7 .main-bar {
+  justify-content: space-between;
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  width: 90%;
+}
+.ex7 .logo-bar {
+  align-items: start;
+}
+.ex7 .logo-bar img {
+  padding: 5px;
+  border-radius: 50%;
+  background-size: cover;
+  height: 4rem;
+  width: 4rem;
+}
+.ex7 .contents-bar {
+  display: flex;
+}
+.ex7 .content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.ex7 .content .link:hover {
+  animation: ul 1s;
+  color: #ff0095;
+}
+
+.content:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.content:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.content {
+  position: relative;
+}
+.content .link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  color: #1ba098;
+}
+
+.active {
+  border-bottom: 2px solid #ff0095;
+  transition: 1s;
+}
+
+.active:hover{
+  border-bottom: 2px solid #fff;
+
 }
